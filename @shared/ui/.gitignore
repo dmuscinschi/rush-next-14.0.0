@@ -104,13 +104,6 @@ dist
 .temp
 .cache
 
-# Rush temporary files
-common/deploy/
-common/temp/
-common/autoinstallers/*/.npmrc
-**/.rush/temp/
-*.lock
-
 # vitepress build output
 **/.vitepress/dist
 
@@ -141,4 +134,3 @@ common/autoinstallers/*/.npmrc
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-.qodo
