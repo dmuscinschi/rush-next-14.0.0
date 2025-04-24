@@ -12,6 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@shared/storefront": "workspace:*",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.28"

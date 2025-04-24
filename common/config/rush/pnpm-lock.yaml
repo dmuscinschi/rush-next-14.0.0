@@ -45,6 +45,7 @@ importers:
 
   ../../@storefronts/store-b:
     specifiers:
+      '@shared/storefront': workspace:*
       '@types/node': ^20
       '@types/react': ^18
       '@types/react-dom': ^18
@@ -57,6 +58,7 @@ importers:
       tailwindcss: ^3.4.1
       typescript: ^5
     dependencies:
+      '@shared/storefront': link:../../@shared/storefront
       next: 14.2.28_nnrd3gsncyragczmpvfhocinkq
       react: 18.3.1
       react-dom: 18.3.1_react@18.3.1
